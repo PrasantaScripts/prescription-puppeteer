@@ -1,6 +1,6 @@
 # Project Name
 
-A MERN stack application with a backend powered by Express and a frontend built with React and Vite. This project includes PDF generation using Puppeteer and Handlebars.
+🚀 A MERN stack application with a backend powered by Express and a frontend built with React and Vite. This project includes PDF generation using Puppeteer and Handlebars.
 
 ## Features
 
@@ -22,8 +22,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/PrasantaScripts/prescription-puppeteer.git
    ```
 
 2. Install dependencies for both frontend and backend:
@@ -62,17 +61,14 @@ This will start the development server on `http://localhost:5173` (default Vite 
 ```
 .
 ├── backend
-│   ├── index.js        # Entry point for backend
-│   ├── routes/         # API routes
-│   ├── controllers/    # Business logic
+│   ├── server.js       
+│   ├── routes/         
 │   ├── templates/      # Handlebars templates for PDF
 │   └── package.json    # Backend dependencies
 │
 ├── frontend
 │   ├── src/
-│   │   ├── components/ # React components
-│   │   ├── pages/      # Page views
-│   │   ├── styles/     # TailwindCSS styles
+│   │   ├── all_the_codes
 │   └── package.json    # Frontend dependencies
 │
 └── README.md           # Project documentation
@@ -80,8 +76,7 @@ This will start the development server on `http://localhost:5173` (default Vite 
 
 ### API Endpoints
 
-- **GET /api/example** - Example API route
-- **POST /api/pdf** - Generates a PDF using Handlebars and Puppeteer
+- **POST /api/generate-pdf** - Generates a PDF using Handlebars and Puppeteer
 
 ### Deployment
 
@@ -94,9 +89,6 @@ npm run build
 
 This generates a `dist/` folder containing optimized static assets.
 
-#### Deploy Backend
-
-Make sure your backend is hosted on a server or a cloud platform (e.g., Heroku, Vercel, or AWS).
 
 ### Contribution
 
