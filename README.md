@@ -1,6 +1,6 @@
-# Project Name
+# 🚀 HTML-TO-PDF-USING-PUPPETEER
 
-🚀 A MERN stack application with a backend powered by Express and a frontend built with React and Vite. This project includes PDF generation using Puppeteer and Handlebars.
+ A MERN stack application with a backend powered by Express and a frontend built with React and Vite. This project includes PDF generation using Puppeteer and Handlebars.
 
 ## Features
 
